@@ -10,11 +10,35 @@ package com.nate.piemenu;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static int black=0x7f030001;
+        public static int qcMenuBackground=0x7f030002;
+        public static int qc_normal=0x7f030003;
+        public static int qc_selected=0x7f030004;
+        public static int qc_sub=0x7f030005;
+        public static int qc_tab_nr=0x7f030006;
+        public static int white=0x7f030000;
+    }
+    public static final class dimen {
+        public static int qc_item_size=0x7f040007;
+        public static int qc_radius_increment=0x7f040001;
+        public static int qc_radius_start=0x7f040000;
+        public static int qc_slop=0x7f040002;
+        public static int qc_tab_title_height=0x7f040004;
+        public static int qc_thumb_height=0x7f040006;
+        public static int qc_thumb_width=0x7f040005;
+        public static int qc_touch_offset=0x7f040003;
+    }
     public static final class drawable {
-        public static int ic_launcher=0x7f020000;
+        public static int ic_close_window_holo_dark=0x7f020000;
+        public static int ic_drawer=0x7f020001;
+        public static int ic_launcher=0x7f020002;
+        public static int ic_settings_holo_dark=0x7f020003;
+        public static int ic_share_holo_dark=0x7f020004;
+        public static int qc_background_normal=0x7f020005;
     }
     public static final class string {
-        public static int app_name=0x7f030000;
+        public static int app_name=0x7f050000;
     }
     public static final class style {
         /** 
@@ -38,10 +62,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static int AppBaseTheme=0x7f040000;
+        public static int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static int AppTheme=0x7f040001;
+        public static int AppTheme=0x7f060001;
     }
 }
